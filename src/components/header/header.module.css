@@ -3,3 +3,18 @@
     height: 100%;
     width: 100%;
 }
+
+.title {
+    margin: 0;
+    padding-left: 33px;
+    padding-top: 20px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+
+    color: #FFFFFF;
+}
