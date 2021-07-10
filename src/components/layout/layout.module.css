@@ -1,0 +1,15 @@
+.header {
+    height: 11vh;
+}
+
+.transactions {
+    display: inline-block;
+    height: 89vh;
+    width: 65vw;
+}
+
+.people {
+    display: inline-block;
+    height: 89vh;
+    width: 35vw;
+}
