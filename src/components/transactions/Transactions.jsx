@@ -1,4 +1,4 @@
-import classes from "./transactions.module.css"
+import classes from "./Transactions.module.css"
 
 const Transactions = (props) => {
     return (

@@ -1,7 +1,7 @@
-import Header from "../header/header"
-import Transactions from "../transactions/transactions"
-import People from "../people/people"
-import classes from "./layout.module.css"
+import Header from "../Header/Header"
+import Transactions from "../Transactions/Transactions"
+import People from "../People/People"
+import classes from "./Layout.module.css"
 
 const Layout = (props) => {
     return (
