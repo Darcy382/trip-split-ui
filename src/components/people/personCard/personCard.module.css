@@ -12,9 +12,25 @@
 
 .amountContainer {
     margin-left: auto;
+    border-radius: 10px;
+}
+
+.dueContainer {
     background: #D1E7DD;
     border: 1px solid #75B798;
-    border-radius: 10px;
+}
+
+.oweContainer {
+    background: #F8D7DA;
+    border: 1px solid #F1AEB5;
+}
+
+.dueText {
+    color: #0F5132;
+}
+
+.oweText {
+    color: #842029;
 }
 
 .amountText {
@@ -26,7 +42,6 @@
     font-size: 20px;
     line-height: 24px;
     text-align: center;
-    color: #0F5132;
 }
 
 .cardContainer {
