@@ -6,6 +6,27 @@
     font-size: 24px;
     line-height: 24px;
     color: #454D55;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.amountContainer {
+    margin-left: auto;
+    background: #D1E7DD;
+    border: 1px solid #75B798;
+    border-radius: 10px;
+}
+
+.amountText {
+    margin: 0;
+    padding: 10px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #0F5132;
 }
 
 .cardContainer {

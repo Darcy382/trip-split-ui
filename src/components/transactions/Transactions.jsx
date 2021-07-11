@@ -3,7 +3,9 @@ import SectionTitle from "components/SectionTitle/SectionTitle"
 
 const Transactions = (props) => {
     return (
-        <SectionTitle>Transactions</SectionTitle>
+        <div class={classes.transactions}>
+            <SectionTitle>Transactions</SectionTitle>
+        </div>
     )
 }
 

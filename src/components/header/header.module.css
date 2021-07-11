@@ -1,4 +1,6 @@
 .header {
+    display: flex;
+    align-items: center;
     background-color: #7749F8;
     height: 100%;
     width: 100%;
@@ -7,8 +9,6 @@
 .title {
     margin: 0;
     padding-left: 33px;
-    padding-top: 20px;
-
     font-family: Inter;
     font-style: normal;
     font-weight: bold;

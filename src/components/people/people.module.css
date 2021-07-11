@@ -1,6 +1,6 @@
 .people {
     height: 100%;
-    width: 100%;
     padding: 15px 30px;
-    border-left: 3px solid #454D55; 
+    border-left: 3px solid #454D55;
+    overflow-y: scroll;
 }

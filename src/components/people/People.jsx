@@ -7,6 +7,8 @@ const People = (props) => {
         <div class={classes.people}>
             <SectionTitle>People</SectionTitle>
             <PersonCard name={"John K"}></PersonCard>
+            <PersonCard name={"Sal Khan"}></PersonCard>
+            <PersonCard name={"Cal D"}></PersonCard>
         </div>
     )
 }

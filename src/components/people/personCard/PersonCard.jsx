@@ -5,7 +5,15 @@ const PersonCard = (props) => {
     return (
         <div class={classes.cardContainer}>
             <Card>
-                <Card.Body><p class={classes.name}>{props.name}</p></Card.Body>
+                <Card.Body>
+                    <div style={{display:'flex', alignItems:"center"}}>
+                        <p class={classes.name}>{props.name}</p>
+                        <div class={classes.amountContainer}>
+                            <p class={classes.amountText}>due $34.64</p>
+                        </div>
+                    </div>
+                    
+                </Card.Body>
             </Card>
         </div>
     )
