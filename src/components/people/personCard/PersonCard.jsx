@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 const PersonCard = (props) => {
     return (
-        <div>
+        <div class={classes.cardContainer}>
             <Card>
                 <Card.Body><p class={classes.name}>{props.name}</p></Card.Body>
             </Card>

@@ -2,7 +2,7 @@ import classes from './SectionTitle.module.css'
 
 const SectionTitle = (props) => {
     return (
-        <h2 class={classes.title}>{props.title}</h2>
+        <h2 class={classes.title}>{props.children}</h2>
     )
 }
 

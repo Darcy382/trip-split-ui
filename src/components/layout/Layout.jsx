@@ -9,11 +9,13 @@ const Layout = (props) => {
             <div class={classes.header}>
                 <Header></Header>
             </div>
-            <div class={classes.transactions}>
-                <Transactions></Transactions>
-            </div>
-            <div class={classes.people}>
-                <People></People>
+            <div class={classes.gridContainer}>
+                <div class={classes.transactions}>
+                    <Transactions></Transactions>
+                </div>
+                <div class={classes.people}>
+                    <People></People>
+                </div>
             </div>
         </div>
     )

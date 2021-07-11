@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&display=swap');
 
-html, body {
+body {
   margin: 0;
   overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,16 +15,7 @@ code {
     monospace;
 }
 
-h2 {
+*, html {
   margin: 0;
-  padding-top: 20px;
-  padding-left: 20px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 44px;
-
-  color: #454D55;
+  padding: 0;
 }
-

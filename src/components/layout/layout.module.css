@@ -2,14 +2,12 @@
     height: 11vh;
 }
 
-.transactions {
-    display: inline-block;
+.transactions, .people {
     height: 89vh;
-    width: 65vw;
+    width: 100%;
 }
 
-.people {
-    display: inline-block;
-    height: 89vh;
-    width: 35vw;
+.gridContainer {
+    display: grid;
+    grid-template-columns: 65% auto;
 }
