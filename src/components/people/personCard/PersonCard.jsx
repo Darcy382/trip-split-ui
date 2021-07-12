@@ -1,5 +1,6 @@
 import classes from "./PersonCard.module.css"
 import Card from 'react-bootstrap/Card';
+import "./PersonCard.module.css";
 
 function RenderDueAmount(amount) {
     return (
@@ -23,7 +24,7 @@ const PersonCard = (props) => {
     return (
         <div class={classes.cardContainer}>
             <Card>
-                <Card.Body>
+                <Card.Body bsPrefix="custom-card-body">
                     <div style={{display:'flex', alignItems:"center"}}>
                         <p class={classes.name}>{props.name}</p>
                         { props.amount >= 0 ? RenderDueAmount(props.amount) : RenderOweAmount(props.amount)}
