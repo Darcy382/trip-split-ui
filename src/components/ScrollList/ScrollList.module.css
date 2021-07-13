@@ -1,0 +1,16 @@
+.scrollList {
+    height: 100%;
+    padding: 0 30px 0 30px;
+    overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollList::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollList {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}

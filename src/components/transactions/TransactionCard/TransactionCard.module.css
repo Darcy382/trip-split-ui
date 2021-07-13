@@ -1,0 +1,55 @@
+.cardContainer {
+    padding: 10px 0px;
+}
+
+.bodyContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.section {
+    display: grid;
+    justify-items: center;
+}
+
+.sectionName {
+    margin: 0;
+    /* Body/ Base text */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* identical to box height, or 175% */
+    display: flex;
+    align-items: center;
+
+    /* Body Text / Base Color */
+    color: #68717A;
+}
+
+.h3Title, .amount {
+    margin: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    color: #454D55;
+}
+
+.amount {
+    text-align: center;
+}
+
+.splitBy {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #16A0FB;
+}
