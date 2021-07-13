@@ -1,4 +1,6 @@
 .people {
     height: 100%;
+    display: flex;
+    flex-flow: column;
     border-left: 3px solid #454D55;
 }
