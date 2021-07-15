@@ -16,7 +16,7 @@ const Transactions = (props) => {
     ])
 
     function renderTransactions() {
-        const transactionCopy =  transactions.map((transaction) => 
+        return transactions.map((transaction) => 
             <TransactionCard
                 transactionName={transaction.transactionName}
                 buyerName={transaction.buyerName}
@@ -24,7 +24,6 @@ const Transactions = (props) => {
                 transactionAmount={transaction.transactionAmount}
             />
         )
-        return transactionCopy
     }
 
     function addTransaction() {
@@ -36,7 +35,7 @@ const Transactions = (props) => {
             <SectionTitle>Transactions</SectionTitle>
             <ScrollList>
                 {renderTransactions()}
-                <AddButton action={addTransaction} variant="dark">Add Transaction</AddButton>
+                <AddButton addHandler={addTransaction} variant="dark">Add Transaction</AddButton>
             </ScrollList>
         </div>
     )

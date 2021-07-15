@@ -23,7 +23,7 @@ function RenderOweAmount(amount) {
 const PersonCard = (props) => {
     return (
         <div class={classes.cardContainer}>
-            <Card>
+            <Card bsPrefix="custom-card card">
                 <Card.Body bsPrefix="custom-card-body">
                     <div style={{display:'flex', alignItems:"center"}}>
                         <p class={classes.name}>{props.name}</p>

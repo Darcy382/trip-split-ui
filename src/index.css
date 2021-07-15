@@ -20,6 +20,29 @@ code {
   padding: 0;
 }
 
+.custom-card:hover {
+  border: 1px solid #b8b8b8;
+}
+
+
 .custom-card-body {
   padding: 8px 10px;
+}
+
+.threeDotsContainer {
+  display: inline-block;
+  text-align: right;
+  width: auto;
+
+}
+
+.threeDots {
+  height: 1.8em;
+  padding: 5px 0;
+  box-sizing: content-box;
+  border-radius: 4px;
+}
+
+.threeDots:hover, .show>.threeDotsContainer>.threeDots {
+  background-color: #d7d9dc;
 }
